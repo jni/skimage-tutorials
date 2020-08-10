@@ -31,8 +31,11 @@ required packages installed in order to participate fully.
   - pandas >= 0.25
   - napari >= 0.3
 
-  We have provided a conda environment that should work well for the workshop,
-  see `environment.yml`. You can create it with:
+  For conda users, we have provided a conda environment that should work well
+  for the workshop. Once you have downloaded the lecture materials (see
+  "Download lecture materials", below), you can find the environment definition
+  in the file `environment.yml`. Once you are at the root of the repository,
+  you can create the environment with:
 
   ```bash
   conda env create -f environment.yml
@@ -56,7 +59,7 @@ required packages installed in order to participate fully.
 
   The traditional Jupyter notebook interface is more stable than Jupyter Lab and is recommended for this workshop.
 
-## Download lecture material
+## Download lecture materials
 
 
 ### Option 1: using git
