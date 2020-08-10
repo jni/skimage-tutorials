@@ -104,8 +104,9 @@ On my computer, I see (but your version numbers may differ):
 
 ## After the workshop
 
-We will upload our completed notebooks to the
-`monash-df-2020-08-completed` branch. You can download it with git using:
+The lecturers will upload our completed notebooks to the
+`monash-df-2020-08-completed` branch. You can download it with git by first
+saving your copy and then fetching that branch:
 
 ```
 git commit -a -m "Work completed in class"
@@ -113,7 +114,7 @@ git fetch origin monash-df-2020-08-completed
 git switch monash-df-2020-08-completed
 ```
 
-Or you can download them directly at:
+**Or** you can download them directly at:
 
 https://github.com/jni/skimage-tutorials/archive/monash-df-2020-08-completed.zip
 
