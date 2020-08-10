@@ -3,8 +3,33 @@
 ## Format
 
 The tutorial consists of lecture segments, followed by hands-on
-exercises.  We strongly encourage you to bring a laptop with all the
-required packages installed in order to participate fully.
+exercises. We strongly encourage you to use a computer with all the
+required packages installed in order to be able to work on the exercises.
+
+## Download lecture materials
+
+### Option 1: download a zip file
+
+Download the file at:
+
+https://github.com/jni/skimage-tutorials/archive/monash-df-2020-08.zip
+
+Unzip it, then start a jupyter notebook inside the archive.
+
+We may make editorial corrections to the material until shortly before the
+class, so please download a fresh copy immediately before the class starts.
+
+### Option 2 using git
+
+If you are familiar with git, you can clone the repository at
+https://github.com/jni/skimage-tutorials.
+
+```
+git clone --depth 1 https://github.com/jni/skimage-tutorials
+```
+
+We may make editorial corrections to the material until the day before
+the workshop, so please execute `git pull` to update before the class starts.
 
 ## Software required
 
@@ -33,7 +58,7 @@ required packages installed in order to participate fully.
 
   For conda users, we have provided a conda environment that should work well
   for the workshop. Once you have downloaded the lecture materials (see
-  "Download lecture materials", below), you can find the environment definition
+  "Download lecture materials", above), you can find the environment definition
   in the file `environment.yml`. Once you are at the root of the repository,
   you can create the environment with:
 
@@ -58,31 +83,6 @@ required packages installed in order to participate fully.
   ```
 
   The traditional Jupyter notebook interface is more stable than Jupyter Lab and is recommended for this workshop.
-
-## Download lecture materials
-
-### Option 1: download a zip file
-
-Download the file at:
-
-https://github.com/jni/skimage-tutorials/archive/monash-df-2020-08.zip
-
-Unzip it, then start a jupyter notebook inside the archive.
-
-We may make editorial corrections to the material until shortly before the
-class, so please download a fresh copy immediately before the class starts.
-
-### Option 2 using git
-
-If you are familiar with git, you can clone the repository at
-https://github.com/jni/skimage-tutorials.
-
-```
-git clone --depth 1 https://github.com/jni/skimage-tutorials
-```
-
-We may make editorial corrections to the material until the day before
-the workshop, so please execute `git pull` to update before the class starts.
 
 ## Test your setup
 
