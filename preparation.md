@@ -61,8 +61,18 @@ required packages installed in order to participate fully.
 
 ## Download lecture materials
 
+### Option 1: download a zip file
 
-### Option 1: using git
+Download the file at:
+
+https://github.com/jni/skimage-tutorials/archive/monash-df-2020-08.zip
+
+Unzip it, then start a jupyter notebook inside the archive.
+
+We may make editorial corrections to the material until shortly before the
+class, so please download a fresh copy immediately before the class starts.
+
+### Option 2 using git
 
 If you are familiar with git, you can clone the repository at
 https://github.com/jni/skimage-tutorials.
@@ -72,15 +82,7 @@ git clone --depth 1 https://github.com/jni/skimage-tutorials
 ```
 
 We may make editorial corrections to the material until the day before
-the workshop, so please execute `git pull` to update before class.
-
-### Option 2: download a zip file
-
-Download the file at:
-
-https://github.com/jni/skimage-tutorials/archive/monash-df-2020-08.zip
-
-Unzip it, then start a jupyter notebook inside the archive.
+the workshop, so please execute `git pull` to update before the class starts.
 
 ## Test your setup
 
