@@ -64,7 +64,7 @@ the workshop, so please execute `git pull` to update before the class starts.
 
   ```bash
   conda env create -f environment.yml
-  conda activate skimage-tutorial
+  conda activate skimage-tutorials
   ```
 
   Please see "Test your setup" below.
