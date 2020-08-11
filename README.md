@@ -5,14 +5,14 @@ A collection of tutorials for the [scikit-image](http://skimage.org) package.
 
 Launch the tutorial notebooks directly with MyBinder now:
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/scikit-image/skimage-tutorials/master?filepath=index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jni/skimage-tutorials/monash-df-2020-08)
 
 Or you can set up and run on your local machine:
 1. [Follow the preparation instructions](preparation.md)
 2. Start the notebook server *from the same directory as this README*
    with `jupyter notebook`
 
-Refer to [the gallery](http://scikit-image.org/docs/dev/auto_examples/) as
+Refer to [the gallery](http://scikit-image.org/docs/stable/auto_examples/) as
 well as [scikit-image demos](https://github.com/scikit-image/skimage-demos)
 for more examples.
 
