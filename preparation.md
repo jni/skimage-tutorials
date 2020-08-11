@@ -120,4 +120,33 @@ git switch monash-df-2020-08-completed
 
 https://github.com/jni/skimage-tutorials/archive/monash-df-2020-08-completed.zip
 
+## if you can't get napari to work
 
+Because napari uses OpenGL and GPUs to render images, and there is such a huge
+variety of operating systems and hardware around, it can sometimes be
+challenging to get napari working on your machine. Because of the limited time
+for the course, we will probably not have time to troubleshoot installation
+issues during the lecture, but we will endeavour to help you get it running
+before or after the course.
+
+If you don't have a running environment before the course, you can launch this
+repository on the cloud by clicking on the Binder link below. It can take time
+to get the remote virtual machine to boot, so click on this link at least 15
+minutes before the course starts.
+
+**IMPORTANT NOTES WHEN RUNNING ON BINDER**
+
+- Things are much slower on Binder, including initializing the Qt event loop.
+  What this means is that you should **wait at least 5 seconds** after running
+  the cell containing `%gui qt` before running any napari cells. **If you don't
+  do this, you will need to restart the notebook from scratch!**
+- To get the desktop on Binder, **before starting any notebooks**, click on
+  "New → desktop" at the top right of the file list. This will open a desktop
+  in a new tab. We recommend dragging the tab out to make it a separate window.
+  Then, start the notebooks from the original file list tab. napari windows
+  created from the notebooks will appear in the desktop browser window.
+- Because these windows are running on a remote desktop, the performance is not
+  as smooth as using local napari, but it should give you a sense of its
+  capabilities and allow you to follow along with the lessons.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jni/skimage-tutorials/monash-df-2020-08)
